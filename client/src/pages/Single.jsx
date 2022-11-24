@@ -1,9 +1,9 @@
-import React from 'react'
+import React from 'react';
 
 const Single = () => {
   return (
     <div>Single</div>
-  )
-}
+  );
+};
 
-export default Single
+export default Single;
