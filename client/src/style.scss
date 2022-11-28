@@ -124,5 +124,14 @@ $lightgreen: #b9e7e7;
 
       }
     }
+
+    .home {
+      .posts{
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        
+      }
+    }
   }
 }
