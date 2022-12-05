@@ -138,7 +138,7 @@ $lightgreen: #b9e7e7;
             flex-direction: row-reverse;
           }
 
-           .img {
+          .img {
             flex: 2;
             position: relative;
 
@@ -251,7 +251,47 @@ $lightgreen: #b9e7e7;
       }
       .menu {
         flex: 2;
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+
+        h1 {
+          font-size: 20px;
+          color: #555;
+        }
+
+        .post {
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+
+          img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+          }
+
+          button {
+            width: max-content;
+            padding: 7.5px 15px;
+            border: none;
+            cursor: pointer;
+            background-color: white;
+            border: 1px solid teal;
+            color: teal;
+
+            &:hover {
+              border: 1px solid white;
+              background-color: $lightgreen;
+              color: black;
+            }
+          }
+        }
       }
+    }
+
+    .write {
+      
     }
   }
 }
